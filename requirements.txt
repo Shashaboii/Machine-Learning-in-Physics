@@ -1,0 +1,13 @@
+# Core (tasks a-c)
+numpy
+matplotlib
+pandas
+
+# Notebooks
+jupyterlab
+
+# Machine learning (tasks d-e) — pick ONE framework and keep it consistent.
+# Uncomment the one you use so the file matches your code.
+# tensorflow            # for Keras models saved as .hdf5 / .keras
+# torch                 # if you prefer PyTorch
+scikit-learn            # metrics, baselines, model persistence via joblib

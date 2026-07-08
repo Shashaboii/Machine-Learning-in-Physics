@@ -1,0 +1,30 @@
+# Virtual environments
+# .venv-ptml/ is this project's env (prompt/kernel: particle-tracking-ml)
+.venv/
+.venv-ptml/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large generated data — regenerate with the simulator instead of committing.
+# Comment these out if you decide the grader needs the raw files in-repo.
+data/*.csv
+data/*.tsv
+data/*.npy
+data/*.npz
+
+# Large model checkpoints (keep final deliverable models, ignore scratch ones)
+models/*.ckpt
+models/*.pt.tmp
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+# Core (tasks a-c)
+numpy
+matplotlib
+pandas
+
+# Notebooks — jupyterlab is the front-end, ipykernel is the execution kernel.
+# ipykernel is what lets the .venv run notebook cells in VS Code / Jupyter.
+jupyterlab
+ipykernel
+
+# Machine learning (tasks d-e) — pick ONE framework and keep it consistent.
+# Uncomment the one you use so the file matches your code.
+# tensorflow            # for Keras models saved as .hdf5 / .keras
+# torch                 # if you prefer PyTorch
+scikit-learn            # metrics, baselines, model persistence via joblib

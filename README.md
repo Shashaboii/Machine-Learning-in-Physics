@@ -1,6 +1,6 @@
 # Hit-to-track association with a permutation-invariant transformer
 
-Exam project for *Machine Learning in Particle Physics and Astronomy* (2026).
+Exam project for *Machine Learning in Physics* (2026).
 
 The problem: when charged particles fly through a tracking detector they leave
 behind **hits**. Before you can measure anything physical, you first have to

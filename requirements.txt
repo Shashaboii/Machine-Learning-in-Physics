@@ -1,15 +1,11 @@
-# Core (tasks a-c)
-numpy
-matplotlib
-pandas
+# Core scientific stack used by the notebooks and run_saved_model.py.
+# Versions are the ones I developed against; slightly newer minors should be fine.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+torch>=2.0
 
-# Notebooks — jupyterlab is the front-end, ipykernel is the execution kernel.
-# ipykernel is what lets the .venv run notebook cells in VS Code / Jupyter.
-jupyterlab
-ipykernel
-
-# Machine learning (tasks d-e) — pick ONE framework and keep it consistent.
-# Uncomment the one you use so the file matches your code.
-# tensorflow            # for Keras models saved as .hdf5 / .keras
-# torch                 # if you prefer PyTorch
-scikit-learn            # metrics, baselines, model persistence via joblib
+# Only needed if you want to open / re-run the .ipynb files locally.
+jupyter>=1.0
